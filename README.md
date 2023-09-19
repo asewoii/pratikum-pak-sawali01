@@ -1,2 +1,1 @@
-# pratikum-pak-sawali01
-hari 1
+# PRATIKUM PAK SAWALI
