@@ -1,0 +1,25 @@
+package jayaesport;
+
+public class JayaEsport {
+
+    public static void main(String[] args) {
+        //membuat variabel
+        int panjang, lebar, tinggi, luas, volume, kell;
+        
+        
+        //mengisi variabel
+        panjang = 15;
+        lebar = 10;
+        tinggi = 5;
+        
+        luas = 2*((panjang*lebar)+(panjang*tinggi)+(lebar*tinggi));
+        volume = panjang*lebar*tinggi;
+        kell = 4*(panjang+lebar+tinggi);
+        
+        //proses
+        System.out.println("Luas            = " +luas);
+        System.out.println("Volume        = " +volume);
+        System.out.println("Kelling          = " +kell);
+    }
+    
+}
